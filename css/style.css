@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+.btn-link:hover, .btn-link:focus {
+    text-decoration: none;
+}
+ul, ol {
+    list-style-type: none;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, .p, h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+@font-face {
+    src: url(../fonts/UniversBold.ttf);
+    font-family: UniversBold;
+}
+@font-face {
+    src: url(../fonts/UniversRegular.ttf);
+    font-family: UniversRegular;
+}
+@font-face {
+    src: url(../fonts/UniversCnBold.ttf);
+    font-family: UniversCnBold;
+}
+@font-face {
+    src: url(../fonts/UniversLight.ttf);
+    font-family: UniversLight;
+}
+@font-face {
+    src: url(../fonts/UniversCnRg.ttf);
+    font-family: UniversCnRg;
+}
+body {
+    font-family: UniversCnRg;
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+}
+
+.mt-200 {
+    margin-top: 200px;
+}
+
+/*--================================================================
+========================  Language part start  =======================
+================================================================--*/
+
+.navbar {
+    position: relative;
+	padding-top: 40px;
+	padding-bottom: 12px;
+    width: 100%;
+    background: #fff;
+    z-index: 99;
+}
+.collapse {
+	margin-right: 40px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 0;
+	padding-left: 0;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+	padding-right: 0;
+	padding-left: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+	font-family: UniversCnRg;
+	font-size: 14px;
+	color: #ac9b9b;
+    font-weight: 500;
+	text-transform: capitalize;
+	transition: all linear .3s;
+    padding: 0 15px;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: red;
+}
+.navbar-light .navbar-nav .nav-link i:hover {
+    color: red;
+}
+.navbar-light .navbar-nav .nav-link:focus{
+	color: #ac9b9b;
+}
+.navbar-light .navbar-nav .nav-link.active {
+    font-weight: 700;
+    color: red;
+}
+.logo {
+    width: 250px;
+    margin-left: 40px;
+}
+.logo img {
+    width: 100%;
+}
+
+/*--=================================================================
+========================  Banner part start  ========================
+=================================================================--*/
+#banner {
+    margin-bottom: 150px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.banner_slider1 {
+    background: url(../images/banner/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+    padding-bottom: 240px;
+}
+.banner_slider2 {
+    background: url(../images/banner/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+    padding-bottom: 240px;
+}
+.banner_slider3 {
+    background: url(../images/banner/banner3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+    padding-bottom: 240px;
+}
+.banner_slider4 {
+    background: url(../images/banner/banner4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+    padding-bottom: 240px;
+}
+.banner_slider5 {
+    background: url(../images/banner/banner5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+    padding-bottom: 240px;
+}
+.banner_slider6 {
+    background: url(../images/banner/banner6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+    padding-bottom: 240px;
+}
+.banner_slider7 {
+    background: url(../images/banner/banner7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+    padding-bottom: 240px;
+}
+
+.banner-item {
+    position: relative;
+    z-index: 99;
+}
+.banner-item p {
+    font-family: UniversCnRg;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+
+/*--================================================================
+========================  Home part end  ===========================
+================================================================--*/
+#home {
+	background: url(../images/back.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-bottom: 70px;
+}
+.lamp {
+    padding-bottom: 150px;
+}
+.lab {
+    padding-bottom: 150px;
+}
+.color {
+    padding-bottom: 150px;
+}
+.home-item h5 {
+    font-family: UniversCnBold;
+    font-size: 16px;
+    color: #726a6a;
+}
+.home-item p {
+    color: #a29e9e;
+}
+.home-item p span {
+    font-family: UniversCnBold;
+    color: #a29e9e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--================================================================
+========================  Footer part end  ========================
+================================================================--*/
+#footer {
+    background: url(../images/footer.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.footer-logo {
+    padding-bottom: 10px;
+}
+.footer-item p {
+	font-family: univers-cufonfonts;
+    font-size: 11px;
+    font-weight: 400;
+    color: #000;
+}
+.footer-item p span {
+    font-weight: 600;
+}
+
